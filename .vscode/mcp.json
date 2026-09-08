@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "kubeops-mcp": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["--directory", "${workspaceFolder}", "run", "kubeops-mcp"]
+    }
+  }
+}
